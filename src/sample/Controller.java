@@ -8,13 +8,12 @@ import static sample.Main.sumaCifara;
 public class Controller {
 
 
-    public TextField tekst1;
     public TextField tekst2;
     public TextField rezultat;
 
 
     public void ispisi(ActionEvent actionEvent) {
-        int a = Integer.parseInt(tekst1.getText());
+        int a = 1;
         int b = Integer.parseInt(tekst2.getText());
         String result= "";
         for(int i=a;i<=b;i++){
